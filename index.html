@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mix-blend-mode | Learn CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>mix-blend-mode</h1>
+    <div class="textured_bg_image">
+      <div class="text" id="selectedMode1">Default value: NORMAL</div>
+      <div class="photo" id="photo"></div>
+    </div>
+    <div class="side_dash">
+      <div class="selectors">
+        <form>
+          <fieldset class="options_fieldset">
+            <legend>Select the mode to blend the photo</legend>
+            <label>
+              <input type="radio" name="blend-mode" value="normal" checked />
+              Normal
+            </label>
+            <label>
+              <input type="radio" name="blend-mode" value="multiply" /> Multiply
+            </label>
+            <label>
+              <input type="radio" name="blend-mode" value="overlay" /> Overlay
+            </label>
+            <label>
+              <input type="radio" name="blend-mode" value="darken" /> Darken
+            </label>
+            <label>
+              <input type="radio" name="blend-mode" value="luminosity" />
+              Luminosity
+            </label>
+            <label>
+              <input type="radio" name="blend-mode" value="screen" /> Screen
+            </label>
+            <label>
+              <input type="radio" name="blend-mode" value="lighten" /> Lighten
+            </label>
+            <label>
+              <input type="radio" name="blend-mode" value="color-dodge" /> Color
+              Dodge
+            </label>
+            <label>
+              <input type="radio" name="blend-mode" value="saturation" />
+              Saturation
+            </label>
+            <label>
+              <input type="radio" name="blend-mode" value="color" /> Color
+            </label>
+          </fieldset>
+        </form>
+      </div>
+      <div class="code_container pre_text">
+        <div>
+          <span class="copy_button" onclick="copyToClipboard()">📑</span>
+        </div>
+        <div>
+          <code>
+            <p class="comment">/* Styles for your image: */</p>
+            .myImage {<br />
+            &nbsp; mix-blend-mode: <span id="selectedMode2">normal</span>;<br />
+            &nbsp; background-image: url("photo.jpg");<br />
+            &nbsp; background-repeat: no-repeat;<br />
+            &nbsp; background-size: contain;<br />
+            &nbsp; height: 250px;<br />
+            &nbsp; width: 250px;<br />
+            &nbsp; opacity: 1;<br />
+            }<span class="code_cursor"> |</span>
+          </code>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

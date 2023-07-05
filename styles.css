@@ -105,6 +105,9 @@ label {
   label {
     margin: 8px;
   }
+  .selectors {
+    margin-top: -18px;
+  }
 }
 
 .pre_text {

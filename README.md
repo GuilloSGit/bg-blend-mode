@@ -22,10 +22,6 @@ This is a simple web page created using HTML, CSS, and JavaScript. The page demo
 4. Hover over elements to see tooltips.
 5. Click the copy button to copy code snippets to the clipboard.
 
-## Screenshots
-
-Include screenshots of your web page here, showcasing the different features and the overall design.
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
